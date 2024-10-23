@@ -1,4 +1,6 @@
 // NYC Open Data DSNY Disposal Facilities Used by Year
+//d3 example:https://d3-graph-gallery.com/graph/barplot_button_data_simple.html
+
 fetch("https://data.cityofnewyork.us/resource/6r9j-qrwz.json?$query=SELECT%20calendar_year%2C%20facility_name%2C%20facility_total_loads%2C%20facility_actual_tons_delivered")
     .then(response => response.json())
     .then(data => {

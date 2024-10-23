@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSNY Facilities Data Visualization</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>DSNY Disposal Facilities Data Visualization</h1>
+    
+    <!-- Add 2 buttons -->
+    <button onclick="update(data1)">Total Loads</button>
+    <button onclick="update(data2)">Actual Tons Delivered</button>
+
+    <!-- Create a div where the graph will take place -->
+    <div id="my_dataviz"></div>
+
+    <!-- Load d3.js -->
+    <script src="https://d3js.org/d3.v6.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
